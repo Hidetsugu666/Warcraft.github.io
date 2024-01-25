@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'TribalFont', Arial, sans-serif; /* Vervang 'TribalFont' door het gewenste lettertype */
+    background-color: #222;    
+    color: #fff; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #3e0707;
+    background: linear-gradient(to bottom, #3e0707, #6d1b1b);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {    
+
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;           
+    box-sizing: border-box;
+    font-family:papyrus;
+    font-size: x-large;
+    color: 	#FFF468;   
+}
+
+
+.Logo img{
+    
+    width: 50%;    
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;      
+}
+
+
+td {
+    padding: 10px;
+    border: 1px solid #666;
+    text-align: left;
+}
+
+td img {
+    display: block;
+    margin: 0 auto;
+    max-width: auto;
+    height: auto;
+}
+
+tfoot th {
+    background-color: #3e0707;
+    color: #FFF468;
+}
