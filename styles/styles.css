@@ -12,3 +12,12 @@ body{
 .Logo :hover{
     transform: scale(1.05)
 }
+
+.Bosslogo img{
+    width: 500px;
+    height: auto;
+}
+
+.Bosslogo :hover{
+    transform: scale(1.05)
+}
