@@ -1,0 +1,45 @@
+body{
+    background-image: url("/content/Background.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;   
+    box-sizing: border-box;
+}
+
+.Logo img{
+    width: 300px;
+    height: auto
+}
+.Logo :hover{
+    transform: scale(1.05)
+}
+
+.Bosslogo img{
+    width: 500px;
+    height: auto;
+}
+
+.Bosslogo :hover{
+    transform: scale(1.05)
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 230px;
+    padding-top: 350px;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.empty-space {
+    width: 300px;
+}
+
+.center-container {
+    text-align: center;
+    margin-top: 20px;
+}
