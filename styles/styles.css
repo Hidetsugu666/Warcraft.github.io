@@ -1,45 +1,39 @@
-body{
+body {
     background-image: url("/content/Background.png");
     background-size: cover;
     height: 100vh;
-    width: 100vw;   
+    width: 100%;
     box-sizing: border-box;
 }
 
-.Logo img{
-    width: 300px;
-    height: auto
-}
-.Logo :hover{
-    transform: scale(1.05)
+.Logo img {
+    width: 40%;
 }
 
-.Bosslogo img{
-    width: 500px;
-    height: auto;
+.Logo img:hover {
+    transform: scale(1.05);
 }
 
-.Bosslogo :hover{
-    transform: scale(1.05)
+.Bosslogo img {
+    width: 33%;
+}
+
+.Bosslogo img:hover {
+    transform: scale(1.05);
 }
 
 .flex-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 230px;
-    padding-top: 350px;
-}
-
-.flex-item {
-    flex: 1;
+    padding-left: 15%;
+    padding-top: 19%;
 }
 
 .empty-space {
-    width: 300px;
+    width: 25%;
 }
 
 .center-container {
     text-align: center;
-    margin-top: 20px;
 }
